@@ -1,66 +1,99 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+HASIL TESTING API
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+GET Semua Kategori
 
-## About Laravel
+•	Method: GET
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+•	URL: http://localhost:8000/api/kategoris
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![image](https://github.com/user-attachments/assets/3332e005-c343-4921-989d-7dedd9666f4e)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+POST Tambah Kategori Baru
 
-## Learning Laravel
+•	Method: POST
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+•	URL: http://localhost:8000/api/kategoris
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+•	Body :
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+![post kategori](https://github.com/user-attachments/assets/470a04c9-b2c9-4265-b35e-24e5fb44776e)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+GET Semua Buku
 
-### Premium Partners
+•	Method: GET
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+•	URL: http://localhost:8000/api/bukus
 
-## Contributing
+![get buku](https://github.com/user-attachments/assets/7d9e0ffe-1e34-4db2-b7ec-198a62a0910a)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+POST Tambah Buku Baru
 
-## Code of Conduct
+•	Method: POST
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+•	URL: http://localhost:8000/api/bukus
 
-## Security Vulnerabilities
+•	Body:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![post buku](https://github.com/user-attachments/assets/eb513180-e86e-4576-a7d4-6634051d17db)
 
-## License
+GET Buku Berdasarkan ID
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+•	Method: GET
+
+•	URL: http://localhost:8000/api/bukus/1
+
+![get buku berdasarkan id](https://github.com/user-attachments/assets/3e5968ee-97f6-43d6-bcc6-e8d1c6037d48)
+
+PUT Update Data Buku
+
+•	Method: PUT
+
+•	URL: http://localhost:8000/api/bukus/1
+
+•	Body:
+
+![update buku](https://github.com/user-attachments/assets/f05b94a2-750b-4ad0-80a0-f1a0db63acfe)
+
+
+DELETE Hapus Buku
+
+•	Method: DELETE
+
+•	URL: http://localhost:8000/api/bukus/1
+
+![delete buku](https://github.com/user-attachments/assets/a18b7c34-9cec-4dc0-bf63-21e5cdadde2d)
+
+HASIL METODE GET PADA ENDPOINT TAMBAHAN UNTUK MENCARI BUKU BERDASARKAN JUDUL
+
+![mencari buku berdasarkan judul](https://github.com/user-attachments/assets/db40713d-2fe1-41b2-8077-3069e730bf57)
+
+Uji API Secara Publik:
+
+Gunakan ngrok atau sejenisnya untuk membuka API ke internet.
+
+![ngrok](https://github.com/user-attachments/assets/9904606e-c968-485a-9d5d-758f3874156e)
+
+TESTING NGROK PADA POSTMAN
+
+![ngrok di postman](https://github.com/user-attachments/assets/1bff41a6-8370-47da-9aea-f45fd8848815)
+
+TESTING NGROK PADA BROWSER
+
+![hasil ngrok](https://github.com/user-attachments/assets/6689248e-df0b-48df-ad31-e76a701f7ff4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
