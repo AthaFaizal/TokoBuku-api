@@ -82,7 +82,9 @@ TESTING NGROK PADA BROWSER
 
 ![hasil ngrok](https://github.com/user-attachments/assets/6689248e-df0b-48df-ad31-e76a701f7ff4)
 
+LINK NGROK 
 
+https://80a8-114-125-126-208.ngrok-free.app/api/bukus
 
 
 
